@@ -28,7 +28,6 @@ describe "./lib/game_status.rb" do
 
       expect(won?(board)).to be_falsey
     end
-
     it 'returns an array of matching indexes for a top row win' do
       board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 
